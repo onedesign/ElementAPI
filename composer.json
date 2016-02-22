@@ -1,8 +1,25 @@
 {
-    "config": {
-        "vendor-dir": "elementapi/vendor"
+  "name": "pixelandtonic/elementapi",
+  "description": "Create a JSON API for your elements in Craft.",
+  "homepage": "https://github.com/onedesign/ElementAPI",
+  "type": "craft-plugin",
+  "keywords": ["craft", "plugin"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Brandon Kelly",
+      "email": "brandon@pixelandtonic.com",
     },
-    "require": {
-        "league/fractal": "^0.12.0"
+    {
+      "name": "Brad Bell",
+      "email": "brad@pixelandtonic.com"
     }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "require": {
+    "composer/installers": "^1.0",
+    "league/fractal": "^0.12.0"
+  }
 }
